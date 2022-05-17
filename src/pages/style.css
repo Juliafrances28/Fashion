@@ -1,0 +1,44 @@
+
+/* .book {
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%
+}
+ */
+
+/* .card-body{ 
+  display: grid;
+  height: 20px; 
+  margin-right: 20px;
+  place-content: center;
+  
+}  */
+
+
+
+.button {
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 16px;
+  padding: 10px 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid;
+  line-height: 10px;
+} 
+
+.Bold {
+font-weight: 300;
+}
+
+/* .container {
+  display: grid;
+  grid-gap: 45px 50px;
+  grid-template-columns: repeat(3, 1fr 2fr);
+  grid-template-rows: repeat(2, 100px auto 20%);
+} */
+
+ 
+
+
+
