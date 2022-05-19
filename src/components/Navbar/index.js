@@ -14,25 +14,49 @@ function Navbar() {
               to="/"
               className={
                 window.location.pathname === "/" ||
-                window.location.pathname === "/Reading"
+                window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              Reading
+              Home
             </Link>
           </li>
 
           <li className="nav">
             <Link
-              to="Books"
+              to="Products"
               className={
-                window.location.pathname === "/Books"
+                window.location.pathname === "/Products"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              Books
+              Products
+            </Link>
+          </li>
+          <li className="nav">
+            <Link
+              to="Landing"
+              className={
+                window.location.pathname === "/Landing"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Landing
+            </Link>
+          </li>
+          <li className="nav">
+            <Link
+              to="Bag"
+              className={
+                window.location.pathname === "/Bag"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Bag
             </Link>
           </li>
         </ul>
