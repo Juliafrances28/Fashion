@@ -1,44 +1,139 @@
 
-/* .book {
-  margin: 0 auto;
-  padding: 20px;
-  width: 50%
+
+/* This property is for the first column in the products page */
+.mini {
+float: left;
+display: grid;
+grid-template-rows:(3, 1fr 2fr);
+
 }
- */
 
-/* .card-body{ 
-  display: grid;
-  height: 20px; 
-  margin-right: 20px;
-  place-content: center;
+/* This property is for the second column in the third column in the products page */
+.info {
+  float: right; 
   
-}  */
+  
+
+}
+
+.item {
+font-size: 42px;
+}
 
 
-
+/* This propery is for the Add to Bag  Button in the third column  in the products page */
 .button {
   text-align: center;
   margin: 10px 10px;
   font-size: 16px;
-  padding: 10px 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px solid;
-  line-height: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 20px;
+  border-radius: 25px;
+  background-color: black; 
+  color: #fff;
 } 
 
-.Bold {
-font-weight: 300;
+
+
+/* This property is for the three small images lined up together in the product page */
+.skirt {
+  width: 60%;
+  margin: 0;
+  padding: 0;
 }
 
-/* .container {
-  display: grid;
-  grid-gap: 45px 50px;
-  grid-template-columns: repeat(3, 1fr 2fr);
-  grid-template-rows: repeat(2, 100px auto 20%);
+
+
+/* This is for the big image in the product page  */
+.fun {
+  width: 80%
+}
+
+
+
+/* This is for the fourth image in column one.... I decided not to use it because it can't be maninpulated like the other three images */
+
+/* .play{
+  width: 10%;
+ } */
+
+/* This property is for making the font bold on Description and Quanity in the product page */
+.Bold {
+   font-weight: Bold;
+  }
+  
+  
+  /* This is for the images in the landing page 
+  .deals {
+    padding-top: 20px;
+  
+  } */
+  
+  /* This is for the four smaller images on the landing page */
+  .variety {
+    width: 40%;
+    float: right;  
+     
+
+ }
+
+  /* This is for the create a grid with the four smaller images on the landing page */
+ /* .stuff {
+
+   margin-top: 10px;
+  margin-left: 50px; 
+ 
+}  */
+/* .buy {
+  margin-left: 50px;
 } */
+  
+  /* This is for the large image on the ladning page  */
+
+  .Blonde {
+    width: 80%;
+    float: left;
+    padding: 0;
+    margin: 0; 
+
+  }
 
  
 
+/* This is for the list on the bag page  */
+ 
+ .firstL{
+    list-style:none;
+  
+    
+ }
+
+ .secondL{
+  list-style:none;
+  float:right;
+  
+  
+}
+ 
+.purchase {
+  background-color: light #c1c1c1;
+}
+.next {
+display: flex;
+justify-content: space-between;
 
 
+}
+
+
+
+.checkout {
+  position: center;
+
+}
+
+
+.bag{
+  width: 20%;
+}
