@@ -4,7 +4,7 @@
 .mini {
 float: left;
 display: grid;
-grid-template-rows:(3, 1fr 2fr);
+grid-template-rows:(3, 1fr 1fr);
 
 }
 
@@ -22,18 +22,20 @@ font-size: 42px;
 
 
 /* This propery is for the Add to Bag  Button in the third column  in the products page */
-.button {
-  text-align: center;
-  margin: 10px 10px;
-  font-size: 16px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 20px;
-  border-radius: 25px;
-  background-color: black; 
-  color: #fff;
-  font-weight: Bold;
-} 
+ .add {
+   text-align: center;
+    margin: 10px 10px;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 20px;
+    border-radius: 25px;
+    background-color: black; 
+    color: #fff;
+    font-weight: Bold;
+  
+}  
+
 
 
 
@@ -61,22 +63,18 @@ font-size: 42px;
   width: 10%;
  } */
 
-/* This property is for making the font bold on Description and Quanity in the product page */
+/* Thisproperty is for making the font bold on Description and Quanity in the product page */
 .Bold {
    font-weight: Bold;
   }
-  
-  
-  /* This is for the images in the landing page 
-  .deals {
-    padding-top: 20px;
-  
-  } */
+
   
   /* This is for the four smaller images on the landing page */
   .variety {
     width: 40%;
-    float: right;  
+    float: right; 
+    margin-top: 30px;
+    margin-left: 30px 
      
 
  }
@@ -87,18 +85,15 @@ font-size: 42px;
    margin-top: 10px;
   margin-left: 50px; 
  
-}  */
-/* .buy {
-  margin-left: 50px;
-} */
+/* This proprty is for the second two smaller photos watch and backpack  */
+
   
-  /* This is for the large image on the ladning page  */
+  /* This is for the large image on the landing page  */
 
   .Blonde {
-    width: 80%;
+    width: 85%;
     float: left;
-    padding: 0;
-    margin: 0; 
+    margin: 30px
 
   }
 
@@ -136,24 +131,22 @@ justify-content: space-between;
 }
 
 /* This is the property for the checkout button at the bottom of column three */
-.button {
-  text-align: center;
-   place-items: center;
-  margin: 30px 10px;
-  font-size: 16px;
-  padding-left: 110px;
-  padding-right: 110px;
-  line-height: 20px;
-  border-radius: 25px;
-  background-color: black; 
-  color: #fff;
-  font-weight: Bold;
-} 
-/* 
 .checkout {
-  position: center;
+text-align: center;
+place-items: center;
+ margin: 30px 10px;
+ font-size: 16px;
+ padding-left: 110px;
+ padding-right: 110px;
+ line-height: 20px;
+ border-radius: 25px;
+ background-color: black; 
+ color: #fff;
+ font-weight: Bold;
+} 
 
-} */
+
+
 
 /* This is the property for the watch  image in column one  */
 .watch{
@@ -169,16 +162,20 @@ justify-content: space-between;
   
 }
 
+
+
 /* This is the property for the shopping bag text */
  .shop {
   margin-top:10%;
   font-size: 30px;
+
 } 
 
 /* This is the propert for the shopping summary text */
- .order {
-  margin-top: 10%;
-  font-size: 30px; 
- 
+.order {
+  margin-top:10%;
+  font-size: 30px;
+
 } 
+
 
