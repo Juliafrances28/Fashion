@@ -13,7 +13,7 @@ function Product() {
           <div className="col-sm-2 mini">
             <div>
               <img
-                className="skirt"
+                className="skirt red"
                 src=" https://s3-alpha-sig.figma.com/img/a50d/f95f/b742740c2cf63e21c4ce789b94a54928?Expires=1653868800&Signature=KajCF4pvcO2LsIOs9EK2zAWluH1T~hBVjc7uL0vftUyJ-U1p8A2DvC1Dp6c6mmNXJlTZ8hEkgPpcNGyUpRLIwJCFM74XIvTcfeKCd2W8XD74Y3FKkzquNRmH3X91Pnej93RiW2Emb3Xxq05~CxSqi0lhQVqcRWKxVoAXFVWIOAMIu16OGRxTuxxC08QfXLrkPgK1PZxyu7q5YGWANN9qSiIgqQ1lZZTNpUoDfvb07YbYL5XA5MNbLc9vUoHprTpbGz29o5l~eton-OQdE0x9uacqsCA68vaBfkk-XcQx0LBaLGeAUv2o~JscLndJVb8IDa-1s-OMf9wCCfeu0QsRsA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                 alt="skirt"
               />
@@ -39,7 +39,7 @@ function Product() {
           <div className="col-sm-5">
             <div>
               <img
-                className="fun"
+                className="fun red"
                 src="https://s3-alpha-sig.figma.com/img/62e4/1fb8/87a545984a0cd8d8989976f418ffc4fd?Expires=1653868800&Signature=aNO217~r0Bpl4Yt6YOpg0sfFi-ikBNXI2C-f6R0jpVYaVVlX89wTUdv30WhYAHfM2IZ5m~K4xfT4GNB7vsA0fVA26UiWn6J3ESGakmsYMUYOXrjhTtB223HpTx7-8N8Z4krW5R0yEbchBxV4K0rKODuVSTnZ45-Gvh9oyKZcidKlBMtvPLjaUM6sjxvod-fExW0I5CO-R-CusBSxYHhu6HJRtUqsqMVX-uW-KQhLivxzlAeTkBr~W3ezadCOcf2bWXeEJYF5UZuL2MRf6tgz2fHVI2H5yhVjrTWEHiFTolQ676uXLjJVzS654GaSbeLNCxV3t4M2Yti1QEh4j8JmyA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA "
                 alt="skirt"
               />

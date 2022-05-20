@@ -8,7 +8,7 @@ grid-template-rows:(3, 1fr 2fr);
 
 }
 
-/* This property is for the second column in the third column in the products page */
+/* This property is for the second column in the products page */
 .info {
   float: right; 
   
@@ -32,6 +32,7 @@ font-size: 42px;
   border-radius: 25px;
   background-color: black; 
   color: #fff;
+  font-weight: Bold;
 } 
 
 
@@ -39,8 +40,6 @@ font-size: 42px;
 /* This property is for the three small images lined up together in the product page */
 .skirt {
   width: 60%;
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -48,6 +47,10 @@ font-size: 42px;
 /* This is for the big image in the product page  */
 .fun {
   width: 80%
+}
+
+.red {
+  margin-top: 30px;
 }
 
 
@@ -101,39 +104,81 @@ font-size: 42px;
 
  
 
-/* This is for the list on the bag page  */
+/* This is the property for the first list on the bag page  */
  
  .firstL{
     list-style:none;
+    
   
     
  }
 
+/* This is the property for the list on the second list on the  bag page  */
  .secondL{
   list-style:none;
   float:right;
-  
-  
+}
+
+/* This is the property for the Horizontal spacing in the between the rows. Excluding the first <li>  in the list in column three on the bag page.  */
+.top {
+  margin-top: 40px;
+}
+
+/* This is the property for the margin on the first row in column three on the bag page. */
+.margin{
+  margin-top: 50px;
 }
  
-.purchase {
-  background-color: light #c1c1c1;
-}
+/* This is the property for the vertical  spacing between the columns in column three on the bag page.  */
 .next {
 display: flex;
 justify-content: space-between;
-
-
 }
 
-
-
+/* This is the property for the checkout button at the bottom of column three */
+.button {
+  text-align: center;
+   place-items: center;
+  margin: 30px 10px;
+  font-size: 16px;
+  padding-left: 110px;
+  padding-right: 110px;
+  line-height: 20px;
+  border-radius: 25px;
+  background-color: black; 
+  color: #fff;
+  font-weight: Bold;
+} 
+/* 
 .checkout {
   position: center;
 
+} */
+
+/* This is the property for the watch  image in column one  */
+.watch{
+  width: 80%;
+  margin-top: 10px;
+
 }
 
-
+/* This is the property for the bag image in column two */
 .bag{
-  width: 20%;
+  width: 80%;
+  margin-top: 30%
+  
 }
+
+/* This is the property for the shopping bag text */
+ .shop {
+  margin-top:10%;
+  font-size: 30px;
+} 
+
+/* This is the propert for the shopping summary text */
+ .order {
+  margin-top: 10%;
+  font-size: 30px; 
+ 
+} 
+
