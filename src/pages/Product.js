@@ -1,15 +1,15 @@
 import React from "react";
 import Container from "../components/Container/index";
 import Button from "../components/Button/index";
-//import Header from "../components/Header/index";
 import Button3 from "../components/Button3/index";
+//import Header from "../components/Header/index";
+
 import "./style.css";
 
 function Product() {
   return (
     <div>
       <Container className="Con">
-        <Button3> </Button3>
         <div className="row">
           <div className="col-sm-2 mini">
             <div>
@@ -48,6 +48,7 @@ function Product() {
           </div>
 
           <div className="col-sm-5 info">
+            <Button3> </Button3>
             <div>
               <p className="item"> The Sideswept Dhot+ Bottom Line Gray</p>
 
